@@ -66,7 +66,9 @@ export const Banner = ()=>{
                         myself with Neural Networks and customizing Large Language Models with finetuning and Retrieval Augmented
                         Generation.
                     </p>
-                    <Button className="button" onClick={()=>console.log("print button")}>Lets connect <ArrowRightCircle size={25}/></Button>
+                    {/* <a href="#contact" >
+                    <button className="button" onClick={()=>setActiveLink('contact')}>Lets connect <ArrowRightCircle size={25}/></button>
+                    </a> */}
                     {/* the arrow icon came from doing npm install bootstrap icon */}
                     </Col>
                     <Col xs={12} md={6} xl={5}>

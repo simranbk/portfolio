@@ -64,11 +64,14 @@ export const NavBar = ()=>{
                   <i className="bi bi-linkedin"></i>
                 </a>
               </div>
-                <button className="vvd" onClick={()=>console.log('connect')}>
+              <a href="#contact" >
+              <button href="#contact" className="vvd" onClick={()=>setActiveLink('contact')}>
                   <span>
                     Lets connect
                   </span>
                 </button>
+              </a>
+                
               </span>
             </Navbar.Collapse>
           </Container>
